@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=gl-117
+Type=Application
+Comment=Play a flight simulator
+Comment[de]=Spiele einen Flugsimulator
+Exec=gl-117
+Icon=gl-117
+Terminal=false
+Hidden=false
+Categories=Game;Simulation;
+Keywords=fighter;aircraft;simulator;

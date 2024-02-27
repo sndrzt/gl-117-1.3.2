@@ -1,0 +1,37 @@
+Source: gl-117
+Section: games
+Priority: optional
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Build-Depends:
+ dh-autoreconf,
+ debhelper (>= 9),
+ freeglut3-dev,
+ libgl1-mesa-dev,
+ libglu1-mesa-dev,
+ libsdl-mixer1.2-dev,
+ libsdl1.2-dev
+Standards-Version: 3.9.8
+Homepage: http://www.heptargon.de/gl-117/gl-117.html
+
+Package: gl-117
+Architecture: any
+Depends:
+ gl-117-data (= ${source:Version}),
+ ${misc:Depends},
+ ${shlibs:Depends}
+Description: action flight simulator
+ gl-117 is a 3D action flight simulator featuring 20 missions, different
+ fighters, a random terrain generator, lighting effects, sound effects, music,
+ and joystick support.
+
+Package: gl-117-data
+Architecture: all
+Depends:
+ ${misc:Depends}
+Description: data files for gl-117
+ gl-117 is a 3D action flight simulator featuring 20 missions, different
+ fighters, a random terrain generator, lighting effects, sound effects, music,
+ and joystick support.
+ .
+ This package contains music and sound files as well as models and textures
+ for gl-117.
